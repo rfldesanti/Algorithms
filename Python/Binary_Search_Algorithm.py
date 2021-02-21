@@ -6,9 +6,7 @@ def pesquisa_binaria(lista, item):
 
     while baixo <= alto:
         meio = int((baixo + alto) / 2)
-        print ("O valor do meio é " + str(meio))
         chute = lista[meio]
-        print ("O valor do chute é " + str(chute))
         if chute == item:
             return meio
         if chute > item:
@@ -18,6 +16,10 @@ def pesquisa_binaria(lista, item):
     return None
 
 minha_lista = [1, 3, 5, 7, 9]
+
+print("The array is " + str(minha_lista))
+print("The lenght o the array is " + str((len(lista)-1)))
+print("The value searched is 9")
 
 print (pesquisa_binaria(minha_lista, 9))
 print (pesquisa_binaria(minha_lista, 7))
