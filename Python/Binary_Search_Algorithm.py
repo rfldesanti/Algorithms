@@ -16,7 +16,7 @@ def pesquisa_binaria(lista, item):
             alto = meio - 1
         else:
             baixo = meio + 1
-    return None
+    return [None, count]
 
 def messages(arr, sv, arr2):
     print("The array is " + str(arr))
@@ -26,7 +26,7 @@ def messages(arr, sv, arr2):
     print("The attempts to find the value were " + str(arr2[1]))
 
 minha_lista = [10, 30, 50, 70, 90, 100, 101, 102, 103, 104]
-searched_value = 10
+searched_value = 11
 pos = pesquisa_binaria(minha_lista,searched_value)
 messages(minha_lista, searched_value, pos)
 
