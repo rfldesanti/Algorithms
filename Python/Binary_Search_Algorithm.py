@@ -22,7 +22,7 @@ def messages(arr, sv, pos):
     print("The position of the value is " + str(pos))
 
 minha_lista = [1, 3, 5, 7, 9]
-searched_value = 9
+searched_value = 2
 pos = pesquisa_binaria(minha_lista,searched_value)
 messages(minha_lista, searched_value, pos)
 
