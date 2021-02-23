@@ -15,11 +15,17 @@ def pesquisa_binaria(lista, item):
             baixo = meio + 1
     return None
 
+def messages(arr, sv, pos):
+    print("The array is " + str(arr))
+    print("The lenght o the array is " + str(len(arr)))
+    print("The value searched is " + str(sv))
+    print("The position of the value is " + str(pos))
+
 minha_lista = [1, 3, 5, 7, 9]
+searched_value = 9
+pos = pesquisa_binaria(minha_lista,searched_value)
+messages(minha_lista, searched_value, pos)
 
-print("The array is " + str(minha_lista))
-print("The lenght o the array is " + str((len(lista)-1)))
-print("The value searched is 9")
-
-print (pesquisa_binaria(minha_lista, 9))
-print (pesquisa_binaria(minha_lista, 7))
+searched_value = 3
+pos = pesquisa_binaria(minha_lista,searched_value)
+messages(minha_lista, searched_value, pos)
