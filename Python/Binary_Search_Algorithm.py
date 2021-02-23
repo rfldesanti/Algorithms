@@ -26,10 +26,10 @@ def messages(arr, sv, arr2):
     print("The attempts to find the value were " + str(arr2[1]))
 
 minha_lista = [10, 30, 50, 70, 90, 100, 101, 102, 103, 104]
-searched_value = 11
+searched_value = 100
 pos = pesquisa_binaria(minha_lista,searched_value)
 messages(minha_lista, searched_value, pos)
 
-searched_value = 102
+searched_value = 104
 pos = pesquisa_binaria(minha_lista,searched_value)
 messages(minha_lista, searched_value, pos)
