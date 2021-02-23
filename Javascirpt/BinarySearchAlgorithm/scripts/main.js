@@ -1,4 +1,8 @@
-document.write("O texto está aqui!")
+function message() {
+        document.write("Text")
+}
+
+message()
 //Informações que preciso para compôr a página HTML
 //      Array
 //      Tamanho do array
