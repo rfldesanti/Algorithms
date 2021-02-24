@@ -1,8 +1,13 @@
+let myButton = document.querySelector('button');
+
 function message() {
         document.write("Text")
 }
 
-message()
+myButton.onclick = function() {
+        message();
+}
+
 //Informações que preciso para compôr a página HTML
 //      Array
 //      Tamanho do array
