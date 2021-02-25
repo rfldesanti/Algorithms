@@ -17,14 +17,12 @@ h2, h3 {
 
 #central_txt {
     width: 600px;
-}
-
-p {
     font-size: 18px;
     text-align: center;
     color: white;
     line-height: 2;
-    padding: 40px;
+    padding-top: 8px;
+    margin: 0;
 }
 
 #bloco_quadro {
