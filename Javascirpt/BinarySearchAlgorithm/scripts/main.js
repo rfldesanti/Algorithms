@@ -1,10 +1,20 @@
-let myButton = document.querySelector('button');
+let myButton_run = document.querySelector(".run");
+let myButton_reset = document.querySelector(".reset");
+let myText = document.getElementById("text");
 
 function message() {
-        document.write("Text")
+        if (myText.textContent == '') {
+                myText.textContent = 'Texto Aqui';
+        } else {
+                myText.textContent = '';
+        }
 }
 
-myButton.onclick = function() {
+myButton_run.onclick = function() {
+        message();
+}
+
+myButton_reset.onclick = function() {
         message();
 }
 
