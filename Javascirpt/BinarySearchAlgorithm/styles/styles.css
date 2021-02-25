@@ -15,6 +15,10 @@ h2, h3 {
     color: white;
 }
 
+#central_txt {
+    width: 600px;
+}
+
 p {
     font-size: 18px;
     text-align: center;
