@@ -20,7 +20,16 @@ p {
     text-align: center;
     color: white;
     line-height: 2;
-    padding: 45px;
+    padding: 40px;
+}
+
+#bloco_quadro {
+    font-size: 18px;
+    text-align: center;
+    color:white;
+    line-height: normal;
+    padding: 2px;
+    border: 0;
 }
 
 body {
