@@ -2,14 +2,17 @@
 
 let myButton_run = document.querySelector(".run");
 let myButton_reset = document.querySelector(".reset");
-let myText = document.getElementById("bloco_quadro");
+let myText = document.getElementsByClassName('bloco_quadro');
+console.log(myText);
 
 myButton_run.onclick = function() {
-        myText.textContent = 'Texto Aqui';
+        myText[0].innerText = "Texto Aqui";
+        myText[1].innerText = "Texto Aqui";
 }
 
 myButton_reset.onclick = function() {
-        myText.textContent = '';
+        myText[0].textContent = '';
+        myText[1].textContent = '';
 }
 
 //Informações que preciso para compôr a página HTML

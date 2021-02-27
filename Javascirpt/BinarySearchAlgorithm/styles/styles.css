@@ -34,6 +34,15 @@ h2, h3 {
     border: 0;
 }
 
+.bloco_quadro {
+    font-size: 18px;
+    text-align: center;
+    color:white;
+    line-height: normal;
+    padding: 2px;
+    border: 0;
+}
+
 body {
     width: 600px;
     margin: 8px auto;
