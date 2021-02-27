@@ -3,7 +3,6 @@
 let myButton_run = document.querySelector(".run");
 let myButton_reset = document.querySelector(".reset");
 let myText = document.getElementsByClassName('bloco_quadro');
-console.log(myText);
 
 myButton_run.onclick = function() {
         myText[0].innerText = "Texto Aqui";
