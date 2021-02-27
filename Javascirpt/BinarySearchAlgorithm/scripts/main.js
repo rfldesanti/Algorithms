@@ -2,7 +2,7 @@
 
 let myButton_run = document.querySelector(".run");
 let myButton_reset = document.querySelector(".reset");
-let myText = document.getElementsByClassName('bloco_quadro');
+let myText = document.getElementById("bloco_quadro");
 
 myButton_run.onclick = function() {
         myText.textContent = 'Texto Aqui';
