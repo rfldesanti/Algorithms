@@ -15,8 +15,15 @@ myButton_reset.onclick = function() {
 }
 
 function binary_search(list, item) {
-        
+        var low_item = 0;
+        var high_item = list.length - 1;
+        var conj = [high_item, item];
+        alert(conj);
 }
+
+arr1 = [0,1,2,3,4];
+item1 = 5;
+binary_search(arr1, item1);
 
 //Informações que preciso para compôr a página HTML
 //      Array
