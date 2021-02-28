@@ -14,6 +14,10 @@ myButton_reset.onclick = function() {
         myText[1].textContent = '';
 }
 
+function binary_search(list, item) {
+        
+}
+
 //Informações que preciso para compôr a página HTML
 //      Array
 //      Tamanho do array
