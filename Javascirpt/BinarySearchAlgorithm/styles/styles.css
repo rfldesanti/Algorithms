@@ -32,7 +32,8 @@ body {
     padding: 0px 20px 20px 20px;
 }
 
-table, td {
+table {
+    font-family:'Courier New', Courier, monospace;
     font-size: 16px;
     margin: 0 auto;
     color: white;
@@ -45,9 +46,10 @@ thead {
 }
 
 td {
+    font-family:'Courier New', Courier, monospace;
     text-align: center;
     color: black;
-    background-color: rgba(255, 255, 255, 0.822);
+    background-color: rgba(255, 255, 255, 0.719);
 }
 
 #table {
