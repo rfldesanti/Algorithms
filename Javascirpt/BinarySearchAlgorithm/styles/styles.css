@@ -25,29 +25,24 @@ h2, h3 {
     margin: 0;
 }
 
-#bloco_quadro {
-    font-size: 18px;
-    text-align: center;
-    color:white;
-    line-height: normal;
-    padding: 2px;
-    border: 0;
-}
-
-.bloco_quadro {
-    font-size: 18px;
-    text-align: center;
-    color:white;
-    line-height: normal;
-    padding: 2px;
-    border: 0;
-}
-
 body {
     width: 600px;
     margin: 8px auto;
     border: 1px solid red;
     padding: 0px 20px 20px 20px;
+}
+
+table {
+    margin: 0 auto;
+}
+
+thead {
+    
+}
+
+#table {
+    padding: 20px 20px 20px 20px;
+    margin: 10px 10px 10px 10px;
 }
 
 .reset, .run {
