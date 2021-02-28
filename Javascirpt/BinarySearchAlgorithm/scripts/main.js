@@ -5,8 +5,8 @@ let myButton_reset = document.querySelector(".reset");
 let myText = document.getElementsByClassName('bloco_quadro');
 
 myButton_run.onclick = function() {
-        myText[0].innerText = "Texto Aqui";
-        myText[1].innerText = "Texto Aqui";
+        myText[0].textContent = "Texto Aqui";
+        myText[1].textContent = "Texto Aqui";
 }
 
 myButton_reset.onclick = function() {
