@@ -20,24 +20,25 @@ function binary_search(list, item) {
         var cont;
 
         while (low_item <= high_item) {
-                middle = Math.floor((low_item + high_tem)/2);
+                middle = Math.floor((low_item + high_item)/2);
                 guess = list[middle];
-
                 if (guess == item) {
-                        return middle;                
+                        return middle;
                 } else if (guess > item) {
                         high_item = middle - 1;
                 } else {
-                        low_item = middle - 1;
+                        low_item = middle + 1;
                 }
-                return null;
         }
+return null;
 }
 
 arr1 = [1,2,3,4,5,6,7,8,9,10];
 len_arr1 = arr1.length;
 item_arr = 4;
 
+result = binary_search(arr1, item_arr);
+console.log(result);
 
 //Informações que preciso para compôr a página HTML
 //      Array
