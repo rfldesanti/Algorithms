@@ -17,13 +17,27 @@ myButton_reset.onclick = function() {
 function binary_search(list, item) {
         var low_item = 0;
         var high_item = list.length - 1;
-        var conj = [high_item, item];
-        alert(conj);
+        var cont;
+
+        while (low_item <= high_item) {
+                middle = Math.floor((low_item + high_tem)/2);
+                guess = list[middle];
+
+                if (guess == item) {
+                        return middle;                
+                } else if (guess > item) {
+                        high_item = middle - 1;
+                } else {
+                        low_item = middle - 1;
+                }
+                return null;
+        }
 }
 
-arr1 = [0,1,2,3,4];
-item1 = 5;
-binary_search(arr1, item1);
+arr1 = [1,2,3,4,5,6,7,8,9,10];
+len_arr1 = arr1.length;
+item_arr = 4;
+
 
 //Informações que preciso para compôr a página HTML
 //      Array
