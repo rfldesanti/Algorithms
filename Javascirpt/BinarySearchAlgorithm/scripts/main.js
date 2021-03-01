@@ -22,6 +22,7 @@ function binary_search(list, item) {
         while (low_item <= high_item) {
                 middle = Math.floor((low_item + high_item)/2);
                 guess = list[middle];
+                console.log(guess);
                 if (guess == item) {
                         return middle;
                 } else if (guess > item) {
