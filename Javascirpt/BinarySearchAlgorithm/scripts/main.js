@@ -35,7 +35,7 @@ return null;
 
 arr1 = [1,2,3,4,5,6,7,8,9,10];
 len_arr1 = arr1.length;
-item_arr = 4;
+item_arr = 10;
 
 result = binary_search(arr1, item_arr);
 console.log(result);
