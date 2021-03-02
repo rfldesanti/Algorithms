@@ -57,6 +57,10 @@ td {
     margin: 10px 10px 10px 10px;
 }
 
+#array {
+    width: 100px;
+}
+
 .reset, .run {
     font-family:'Courier New', Courier, monospace;
     color: white;
