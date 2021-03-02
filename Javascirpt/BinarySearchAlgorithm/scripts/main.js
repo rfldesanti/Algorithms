@@ -17,7 +17,6 @@ myButton_reset.onclick = function() {
 function binary_search(list, item) {
         var low_item = 0;
         var high_item = list.length - 1;
-        var cont;
 
         while (low_item <= high_item) {
                 middle = Math.floor((low_item + high_item)/2);
