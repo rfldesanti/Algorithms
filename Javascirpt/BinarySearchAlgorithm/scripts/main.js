@@ -8,9 +8,9 @@ let target_value = document.getElementById("target");
 let index = document.getElementById("index");
 
 myButton_run.onclick = function() {
-        arr1 = [1,2,3,4,5,6,7,8,9,10,13,17,19,23,29];
+        arr1 = [1,2,3,4,5,6,7,8,9,10];
         len_arr1 = arr1.length;
-        item_arr = 10;
+        item_arr = 11;
         array.textContent = arr1;
         array_len.textContent = len_arr1;
         target_value.textContent = item_arr;
@@ -40,5 +40,5 @@ function binary_search(list, item) {
                         low_item = middle + 1;
                 }
         }
-return null;
+return "NOT IN ARRAY";
 }
