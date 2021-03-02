@@ -34,7 +34,7 @@ function binary_search(list, item) {
 return null;
 }
 
-arr1 = [1,2,3,4,5,6,7,8,9,10];
+arr1 = [1,2,3,4,5,6,7,8,9,10,13,17,19,23,29];
 len_arr1 = arr1.length;
 item_arr = 10;
 
