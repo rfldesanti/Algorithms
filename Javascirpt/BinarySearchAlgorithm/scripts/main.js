@@ -2,16 +2,26 @@
 
 let myButton_run = document.querySelector(".run");
 let myButton_reset = document.querySelector(".reset");
-let myText = document.getElementsByClassName('bloco_quadro');
+let array = document.getElementById("array");
+let array_len = document.getElementById("array_len");
+let target_value = document.getElementById("target");
+let index = document.getElementById("index");
 
 myButton_run.onclick = function() {
-        myText[0].textContent = "Texto Aqui";
-        myText[1].textContent = "Texto Aqui";
+        arr1 = [1,2,3,4,5,6,7,8,9,10,13,17,19,23,29];
+        len_arr1 = arr1.length;
+        item_arr = 10;
+        array.textContent = arr1;
+        array_len.textContent = len_arr1;
+        target_value.textContent = item_arr;
+        index.textContent = binary_search(arr1, item_arr);
 }
 
 myButton_reset.onclick = function() {
-        myText[0].textContent = '';
-        myText[1].textContent = '';
+        array.textContent = '';
+        array_len.textContent = '';
+        target_value.textContent = '';
+        index.textContent = '';
 }
 
 function binary_search(list, item) {
@@ -32,17 +42,3 @@ function binary_search(list, item) {
         }
 return null;
 }
-
-arr1 = [1,2,3,4,5,6,7,8,9,10,13,17,19,23,29];
-len_arr1 = arr1.length;
-item_arr = 10;
-
-result = binary_search(arr1, item_arr);
-console.log(result);
-
-//Informações que preciso para compôr a página HTML
-//      Array
-//      Tamanho do array
-//      Valor escolhido
-//      Posição do valor
-//      Número de tentativas para encontrar o valor
