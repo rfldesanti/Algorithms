@@ -1,9 +1,14 @@
-/*Improvements to be made on long term:
-    1 - Put options to the user choose:
-        1.1 - the length of the array;
-        1.2 - the fill of the array;
-        1.3 - the value to be searched;
-    2 - Create table for each test made; each time a test is run, create a table;
+/*      1 - Improvements to be made on short term:
+                1.1 - Update the page when the button "Run test" is clicked;
+                (update the page and make the test)
+
+
+        2 - Improvements to be made on long term:
+                2.1 - Put options to the user choose:
+                        2.1.1 - the length of the array;
+                        2.1.2 - the fill of the array;
+                        2.1.3 - the value to be searched;
+        2.2 - Create table for each test made; each time a test is run, create a table;
 */
 
 let myButton_run = document.querySelector(".run");
@@ -17,7 +22,7 @@ let count = document.getElementById("attempts");
 myButton_run.onclick = function() {
         arr1 = [1,2,3,4,5,6,7,8,9,10];
         len_arr1 = arr1.length;
-        item_arr = 6;
+        item_arr = 0;
         array.textContent = arr1;
         array_len.textContent = len_arr1;
         target_value.textContent = item_arr;
@@ -31,6 +36,7 @@ myButton_reset.onclick = function() {
         array_len.textContent = '';
         target_value.textContent = '';
         index.textContent = '';
+        count.textContent = '';
 }
 
 function binary_search(list, item) {
