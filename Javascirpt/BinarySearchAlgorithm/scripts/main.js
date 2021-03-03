@@ -20,9 +20,9 @@ let index = document.getElementById("index");
 let count = document.getElementById("attempts");
 
 myButton_run.onclick = function() {
-        arr1 = [1,2,3,4,5,6,7,8,9,10];
+        arr1 = [55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80];
         len_arr1 = arr1.length;
-        item_arr = 0;
+        item_arr = 80;
         array.textContent = arr1;
         array_len.textContent = len_arr1;
         target_value.textContent = item_arr;
