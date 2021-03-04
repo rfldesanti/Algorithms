@@ -1,6 +1,6 @@
 class BinarySearchAlgorithm {
 
-    int[] BinarySearchAlgorithm(list, item) {
+    int[] BinarySearchAlgorithm(int[] list, int item) {
 
         int low_value, attempts;
         int high_value = list.length - 1;
