@@ -8,7 +8,9 @@ class BinarySearchAlgorithm {
         while (low_value <= high_value) {
             attempts++;
             int middle = Integer.parseInt((low_value + high_value)/2);
-            int [] pos_att = new int [middle, attempts];
+            int [] pos_att = new int [2];
+            pos_att[0] = middle;
+            pos_att[1] = attempts;
             int hint = list[middle];
             if (hint == item) {
                 return pos_att;
@@ -18,7 +20,7 @@ class BinarySearchAlgorithm {
                 low_value = middle + 1;
             }
         }
-        pos_att = [-1, attempts];
+        pos_att[0] = -1;
         return pos_att;
     }
 }
