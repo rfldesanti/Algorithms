@@ -18,7 +18,7 @@ class BinarySearchAlgorithm {
                 low_value = middle + 1;
             }
         }
-        pos_att = [0, attempts];
+        pos_att = [-1, attempts];
         return pos_att;
     }
 }
