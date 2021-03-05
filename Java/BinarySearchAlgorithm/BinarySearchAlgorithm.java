@@ -7,7 +7,7 @@ class BinarySearchAlgorithm {
 
         while (low_value <= high_value) {
             attempts++;
-            int middle = (low_value + high_value)/2;
+            int middle = Math.round((low_value + high_value)/2);
             int [] pos_att = new int [2];
             pos_att[0] = middle;
             pos_att[1] = attempts;
