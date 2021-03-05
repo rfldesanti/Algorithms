@@ -2,7 +2,7 @@ class BinarySearchAlgorithm {
 
     int[] BinarySearchAlgorithm(int[] list, int item) {
 
-        int low_value, attempts;
+        int low_value = 0, attempts = 0;
         int high_value = list.length - 1;
 
         while (low_value <= high_value) {
