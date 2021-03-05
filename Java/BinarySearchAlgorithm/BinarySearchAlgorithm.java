@@ -12,7 +12,7 @@ class BinarySearchAlgorithm {
             pos_att[0] = middle;
             pos_att[1] = attempts;
             int hint = list[middle];
-            System.out.println("Attempt: " + attempts + " Hint: " + hint);
+            System.out.println("Attempt: " + attempts + " Hint: " + hint + " Position: " + middle);
             if (hint == item) {
                 return pos_att;
             } else if (hint > item) {
