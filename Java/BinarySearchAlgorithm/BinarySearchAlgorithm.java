@@ -14,6 +14,7 @@ class BinarySearchAlgorithm {
             int hint = list[middle];
             System.out.println("Attempt: " + attempts + " Hint: " + hint + " Position: " + middle);
             if (hint == item) {
+                System.out.println("The length of the array is " + list.length);
                 return pos_att;
             } else if (hint > item) {
                 high_value = middle - 1;
