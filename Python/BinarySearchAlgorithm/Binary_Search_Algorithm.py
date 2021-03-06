@@ -19,11 +19,11 @@ def pesquisa_binaria(lista, item):
     return [None, count]
 
 def messages(arr, sv, arr2):
-    print("The array is " + str(arr))
-    print("The lenght o the array is " + str(len(arr)))
-    print("The value searched is " + str(sv))
-    print("The position of the value is " + str(arr2[0]))
-    print("The attempts to find the value were " + str(arr2[1]))
+    print("Array: " + str(arr))
+    print("Length: " + str(len(arr)))
+    print("Value searched: " + str(sv))
+    print("Index: " + str(arr2[0]))
+    print("Attempts: " + str(arr2[1]))
 
 minha_lista = [10, 30, 50, 70, 90, 100, 101, 102, 103, 104]
 searched_value = 100
