@@ -1,3 +1,5 @@
+import java.util.*;
+
 class test_BinarySearchAlgorithm {
 
     public static void main(String[] args) {
@@ -7,9 +9,7 @@ class test_BinarySearchAlgorithm {
         int[] results;
         BinarySearchAlgorithm bsa = new BinarySearchAlgorithm();
         results = bsa.BinarySearchAlgorithm(list, item);
-        //String[] array_content = new String[list.length];
-        //array_content = list.toString();
-        System.out.println("Array: " + list.toString() + " not working ");
+        System.out.println("Array: " + Arrays.toString(list) + " not working ");
         System.out.println("Length of array " + list.length);
         System.out.println("Target: " + item);
         System.out.println("Index: " + results[0]);
