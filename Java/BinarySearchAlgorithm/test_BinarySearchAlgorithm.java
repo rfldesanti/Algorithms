@@ -4,13 +4,13 @@ class test_BinarySearchAlgorithm {
 
     public static void main(String[] args) {
 
-        int[] list = {1,2,3,4,5,6,7,8,9,10,11,12};
-        int item = 12;
+        int[] list = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30};
+        int item = 31;
         int[] results;
         BinarySearchAlgorithm bsa = new BinarySearchAlgorithm();
         results = bsa.BinarySearchAlgorithm(list, item);
-        System.out.println("Array: " + Arrays.toString(list) + " not working ");
-        System.out.println("Length of array " + list.length);
+        System.out.println("Array: " + Arrays.toString(list));
+        System.out.println("Length of array: " + list.length);
         System.out.println("Target: " + item);
         System.out.println("Index: " + results[0]);
         System.out.println("Attempts: " + results[1]);
