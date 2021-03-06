@@ -7,7 +7,9 @@ class test_BinarySearchAlgorithm {
         int[] results;
         BinarySearchAlgorithm bsa = new BinarySearchAlgorithm();
         results = bsa.BinarySearchAlgorithm(list, item);
-        System.out.println("Array: " + Object.toString(list));
+        //String[] array_content = new String[list.length];
+        //array_content = list.toString();
+        System.out.println("Array: " + list.toString() + " not working ");
         System.out.println("Length of array " + list.length);
         System.out.println("Target: " + item);
         System.out.println("Index: " + results[0]);
