@@ -30,6 +30,6 @@ searched_value = 100
 pos = pesquisa_binaria(minha_lista,searched_value)
 messages(minha_lista, searched_value, pos)
 
-searched_value = 104
+searched_value = 109
 pos = pesquisa_binaria(minha_lista,searched_value)
 messages(minha_lista, searched_value, pos)
