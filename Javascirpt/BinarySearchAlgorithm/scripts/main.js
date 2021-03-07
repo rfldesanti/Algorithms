@@ -11,13 +11,13 @@
         2.2 - Create table for each test made; each time a test is run, create a table;
 */
 
-let myButton_run = document.querySelector(".run");
-let myButton_reset = document.querySelector(".reset");
-let array = document.getElementById("array");
-let array_len = document.getElementById("array_len");
-let target_value = document.getElementById("target");
-let index = document.getElementById("index");
-let count = document.getElementById("attempts");
+var myButton_run = document.querySelector(".run");
+var myButton_reset = document.querySelector(".reset");
+var array = document.getElementById("array");
+var array_len = document.getElementById("array_len");
+var target_value = document.getElementById("target");
+var index = document.getElementById("index");
+var count = document.getElementById("attempts");
 
 myButton_run.onclick = function() {
         arr1 = [55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80];
