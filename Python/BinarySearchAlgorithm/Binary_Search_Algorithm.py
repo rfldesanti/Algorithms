@@ -1,3 +1,27 @@
+#Changes to be applied to this Python Binary Search Algorithm
+
+#The progam must offer the possibility for the user
+#to enter their own values in which the target value must be found
+
+#To create this kind of iteration with the user, we must, along ohter things:
+
+# - To offer a menu that contains a limited number of options representing
+#   a unique data type and limited range of values;
+# - Request to user a response, making him choice the number of values
+# - that he wants to input in the search;
+# - Verify if the values in fact can be used to make a binary search; actually,
+# - we will use only INTEGERS to make the binary search; so, the program must be
+# - able to prevent the user from including values that do not fit the given data type;
+
+#All this changes requires that we learn how to:
+
+# - Offer options to the user and learn how to deal with a valid and invalid options;
+# - (I think that this point is very challenger, since we never did something like that
+# - and we must found a GENERAL SOLUTION to this kind of problems)
+# - Request inputs from the user;
+# - Analyse this inputs to prevent the insertion if the values is not the kind
+# - we are working with;
+
 print("Here is a Binary Search Algorithm")
 
 def pesquisa_binaria(lista, item):
