@@ -21,11 +21,12 @@
         This numbers are showm IN THE SAME FILED, exactly like the slot machines, with
         a "reel" spinning rapidly a bunch of numbers.
         To achieve this kind of logic and layout, we are going to need:
-        
+
                 - to inform the user that the program creates a range
                   based on the values that he is going to inform;
                 - two boxes to receive values;
    
+*/
 
 var myButton_run = document.querySelector(".run");
 var myButton_reset = document.querySelector(".reset");
