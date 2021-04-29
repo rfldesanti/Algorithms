@@ -1,15 +1,31 @@
-/*      1 - Improvements to be made on short term:
-                1.1 - Update the page when the button "Run test" is clicked;
-                (update the page and make the test)
-
-
-        2 - Improvements to be made on long term:
+/*      2 - Improvements to be made on long term:
                 2.1 - Put options to the user choose:
                         2.1.1 - the length of the array;
                         2.1.2 - the fill of the array;
                         2.1.3 - the value to be searched;
         2.2 - Create table for each test made; each time a test is run, create a table;
 */
+
+/* 29/04/2021      
+        The ideas above surely can be done, but I had other ideas to use in
+        the Binary Search Algorithm's page.
+        My ideia is to put two boxes in the page and ask the user to inform
+        two values: one is going to be the MINOR value - the first value of the range;
+        the other is the MAJOR value - the last value of the range; then, another
+        box requesting the size of the distance between the values that 
+        compose the range. With this three values, we can create a range where
+        we are going to select a number to be our target value;
+        To select a target value, my ideia is to create some kind of "slot machine system",
+        in which the value is choosed by a user's event (a mouse click or button pressing)
+        while random numbers that are part of the range are running in the screen.
+        This numbers are showm IN THE SAME FILED, exactly like the slot machines, with
+        a "reel" spinning rapidly a bunch of numbers.
+        To achieve this kind of logic and layout, we are going to need:
+        
+                - to inform the user that the program creates a range
+                  based on the values that he is going to inform;
+                - two boxes to receive values;
+   
 
 var myButton_run = document.querySelector(".run");
 var myButton_reset = document.querySelector(".reset");
