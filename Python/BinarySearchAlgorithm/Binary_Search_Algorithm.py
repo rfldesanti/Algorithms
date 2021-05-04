@@ -1,13 +1,13 @@
 #Changes to be applied to this Python Binary Search Algorithm
 
 #The progam must offer the possibility for the user
-#to enter their own values in which the target value must be found
+#to enter their own values (first and last), that will create a range
+#where the target value must be found
 
 #To create this kind of iteration with the user, we must, along ohter things:
 
-# - To offer a menu that contains a limited number of options representing
-#   a unique data type and limited range of values;
-# - Request to user a response, making him choice the number of values
+# - Limit the operations to a unique data type and limited range of values;
+# - Request to user a response, making him choice the values
 # - that he wants to input in the search;
 # - Verify if the values in fact can be used to make a binary search; actually,
 # - we will use only INTEGERS to make the binary search; so, the program must be
@@ -21,6 +21,9 @@
 # - Request inputs from the user;
 # - Analyse this inputs to prevent the insertion if the values is not the kind
 # - we are working with;
+# - Create a "slot machine", that it will show the values in a random sequence
+# - and in a faster way;
+# - Make the "slot machine" stop when the user press any key;
 
 print("Here is a Binary Search Algorithm")
 
